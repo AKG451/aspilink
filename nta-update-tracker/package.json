@@ -1,0 +1,30 @@
+{
+  "name": "nta-update-tracker",
+  "version": "1.0.0",
+  "description": "An application to track updates from the NTA website for JEE and NEET and notify subscribers via email.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsdom": "^26.1.0",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^6.10.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^16.11.7",
+    "@types/node-fetch": "^2.6.13",
+    "@types/nodemailer": "^6.4.17",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
